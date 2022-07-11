@@ -39,5 +39,6 @@ calculator.addEventListener('click', () => {
     else {
         alert("Please check your input ( 0's & 1's only ).");
         document.querySelector("#binary").value = "";
+        document.querySelector("#decimal").value = "";
     }
 })
