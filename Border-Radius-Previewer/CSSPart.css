@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 800;
+    background-color: #bcb8b1;
+}
+
+header {
+    background-color: #efebce;
+    height: 150px;
+    font-size: x-large;
+    text-decoration: underline;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    height: 325px;
+    font-size: large;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#user {
+    width: 35%;
+    height: 325px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    width: 35%;
+    height: 325px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    width: 50%;
+    margin-left: 210px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.input input {
+    margin-left: 20px;
+}
+
+.input:nth-of-type(1) input {
+    margin-left: 50px;
+}
+
+.input:nth-of-type(2) input {
+    margin-left: 38px;
+}
+
+.input:nth-of-type(3) input {
+    margin-left: 32px;
+}
+
+.input:nth-of-type(4) input {
+    margin-left: 20px;
+}
+
+
+#box {
+    background-color: #706c61;
+    height: 170px;
+    width: 230px;
+    margin-right: 180px;
+    transition-property: border-radius;
+    transition-duration: .5s;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+}
+
+#CLICK {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 0;
+    font-size: medium;
+    font-weight: 600;
+}
+
+#CLICK:active {
+    background-color: white;
+    box-shadow: 5px 5px #666;
+    transform: translate(4px, 2px);
+}
+
+#CLICK2:active {
+    background-color: white;
+    box-shadow: 5px 5px #666;
+    transform: translate(4px, 2px);
+}
+
+#CLICK2 {
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+footer #clipboard {
+    background-color: white;
+    height: 24px;
+    width: 330px;
+    margin-left: 120px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 600;
+}

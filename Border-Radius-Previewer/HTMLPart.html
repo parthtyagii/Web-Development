@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fascinate&family=Oswald:wght@700&family=Prompt:wght@500&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSSPart.css">
+    <title>B-R-P</title>
+</head>
+
+<body>
+    <header>
+        <h1>Border-Radius-Previewer</h1>
+    </header>
+
+    <main>
+        <div id="user">
+            <div class="input">
+                <label for="tLeft">top-left</label>
+                <input type="number" id="tLeft" min="0" max="100" placeholder="          %">
+            </div>
+            <div class="input">
+                <label for="tRight">top-right</label>
+                <input type="number" id="tRight" min="0" max="100" placeholder="          %">
+            </div>
+            <div class="input">
+                <label for="dLeft">down-left</label>
+                <input type="number" id="dLeft" min="0" max="100" placeholder="          %">
+            </div>
+            <div class="input">
+                <label for="dRight">down-right</label>
+                <input type="number" id="dRight" min="0" max="100" placeholder="          %">
+            </div>
+        </div>
+
+        <div id="display">
+            <div id="box">
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <button id="CLICK">Convert</button>
+        <input type="text" id="clipboard" maxlength="0" placeholder=" border-radius: ;">
+        <button id="CLICK2">&#128203;</button>
+
+    </footer>
+
+
+    <script src="JsPart.js"></script>
+</body>
+
+</html>
