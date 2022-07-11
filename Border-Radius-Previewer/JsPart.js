@@ -52,8 +52,3 @@ clipBoard.addEventListener('click', () => {
     navigator.clipboard.writeText(clipBoardText);
     alert("Copied to clipboard.");
 });
-
-
-
-
-
