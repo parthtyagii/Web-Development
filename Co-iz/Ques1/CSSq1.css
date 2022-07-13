@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    background-color: #62b6cb;
+    color: #202020;
+    font-family: 'Varela Round', sans-serif;
+}
+
+main {
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 20%;
+    margin-top: 80px;
+    width: 60%;
+    height: 450px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 5px 0 30px #f7b267, -5px 0 30px #f7b267, 0 5px 30px #f7b267, 0 -5px 30px #f7b267;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+#statement {
+    font-size: xx-large;
+    width: 80%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+#answers {
+    width: 80%;
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#answers12,
+#answers34 {
+    width: 100%;
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    height: 70px;
+    width: 300px;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 700;
+
+    color: white;
+    background-color: #62b6cb;
+    border-color: white;
+    transition-duration: .1s;
+}
+
+.option:active {
+    transform: translate(3px, 3px);
+    box-shadow: 3px 0 15px #7ae582,
+        -3px 0 15px #7ae582,
+        0 3px 15px #7ae582,
+        0 -3px 15px #7ae582;
+}
+
+#op1,
+#op3 {
+    margin-right: 50px;
+}
