@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #62b6cb;
+    background-color: #84a98c;
     color: #202020;
     font-family: 'Varela Round', sans-serif;
 }
@@ -67,15 +67,12 @@ main {
     font-size: large;
     font-weight: 700;
     color: white;
-    background-color: #62b6cb;
+    background-color: #e07a5f;
     border-color: white;
     transition-duration: .1s;
 }
 
 #start_button button:active {
     transform: translate(3px, 3px);
-    box-shadow: 3px 0 5px #62b6cb,
-        -3px 0 5px #62b6cb,
-        0 3px 5px #62b6cb,
-        0 -3px 5px #62b6cb;
+    box-shadow: 3px 3px 5px #343a40;
 }
