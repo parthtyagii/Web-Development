@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background-color: #62b6cb;
+    color:#202020;
+    font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    width: 100%;
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Anton', sans-serif; */
+    font-family: 'Lobster', cursive;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 25%;
+    width: 50%;
+    height: 350px;
+    background-color: white;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+#warning{
+    width: 60%;
+    margin-top: 50px;
+    /* margin-left: ; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#start_button {
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#start_button button {
+    width: 200px;
+    height: 45px;
+    margin-top: 60px;
+    margin-left: 15px;
+    border-radius: 2em;
+    font-size: large;
+    font-weight: 700;
+    color: white;
+    background-color: #62b6cb;
+    border-color: white;
+    transition-duration: .1s;
+}
+
+#start_button button:active {
+    transform: translate(3px,3px);
+    box-shadow: 3px 0 5px #62b6cb,
+        -3px 0 5px #62b6cb,
+        0 3px 5px #62b6cb,
+        0 -3px 5px #62b6cb;
+}
