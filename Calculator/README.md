@@ -1,8 +1,10 @@
 
-# Co-iz
+# Calculator
 
-A Quiz app to test your coding fundamentals.
+It's a basic calculator made using HTML, CSS and Javascript.
 
-## Demo
 
-https://github.com/parthtyagii/Web-Development/blob/master/Co-iz/co-iz.mp4
+## Screenshots
+
+![App Screenshot](https://github.com/parthtyagii/Web-Development/blob/master/Calculator/screen%20shot.PNG)
+
